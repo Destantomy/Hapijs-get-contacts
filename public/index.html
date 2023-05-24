@@ -3,6 +3,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Get Contacts</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
+    <link rel="stylesheet" href="stytle.css">
 </head>
 <body>
     <section class="section">
@@ -78,8 +79,8 @@
                 .catch(error => console.error('Error:', error));
         }
 
-        const pusher = new Pusher('enter_yours', {
-            cluster: 'enter_yours',
+        const pusher = new Pusher('9cc4ebd50283b622092f', {
+            cluster: 'ap1',
             encrypted: true
         });
 
