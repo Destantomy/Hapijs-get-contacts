@@ -6,10 +6,10 @@ const Path = require('path');
 
 // Init Pusher
 const pusher = new Pusher({
-  appId: 'enter_yours',
-  key: 'enter_yours',
-  secret: 'enter_yours',
-  cluster: 'enter_yours',
+  appId: '1601886',
+  key: '9cc4ebd50283b622092f',
+  secret: 'da7976de4e788b701d93',
+  cluster: 'ap1',
   encrypted: true,
 });
 
